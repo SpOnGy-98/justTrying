@@ -1,0 +1,44 @@
+{% extends 'html/base.html' %}
+{% block value1 %}disabled{% endblock %}
+{% block value %}active{% endblock %}
+{% block content %}
+    <div class="container">
+        <h3>Register</h3>
+        <div class="container">
+            <form class="form-signin">
+                <div class="form-group">
+                    <small>Register on CSE 2A by filling up the form and succesfully submitting it.</small>
+                </div>
+                <div class="form-group">
+                    <label for="inputName" class="sr-only">Name</label>
+                    <!--{{ form.name }}-->
+                    <p>Input your First Name</p>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label for="comment" class="sr-only">Comment:</label>
+                    <!--{{ form.comment }}-->
+                    <p>Input your Last Name</p>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label for="comment" class="sr-only">Comment:</label>
+                    <!--{{ form.comment }}-->
+                    <p>Input your Date Of Birth</p>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label for="comment" class="sr-only">Comment:</label>
+                    <!--{{ form.comment }}-->
+                    <p>Input your Email</p>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <label for="comment" class="sr-only">Comment:</label>
+                    <!--{{ form.comment }}-->
+                    <p>Input your Phone No.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
